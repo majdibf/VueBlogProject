@@ -8,7 +8,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @Configuration
 @EnableTransactionManagement
-@MapperScan("com.markerhub.mapper")
+@MapperScan("com.mbenfredj.vueblog.mapper")
 public class MybatisPlusConfig {
 
     @Bean

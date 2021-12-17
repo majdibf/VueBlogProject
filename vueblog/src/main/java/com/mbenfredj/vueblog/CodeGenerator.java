@@ -15,6 +15,7 @@ import java.util.List;
 import java.util.Scanner;
 
 // This class is provided by mybatis
+// Doesn't support Apache Derby
 public class CodeGenerator {
 
     public static String scanner(String tip) {
