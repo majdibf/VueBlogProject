@@ -1,7 +1,7 @@
 package com.mbenfredj.vueblog;
 
 import com.mbenfredj.vueblog.entity.User;
-import com.mbenfredj.vueblog.mapper.UserMapper;
+import com.mbenfredj.vueblog.dao.UserDao;
 import org.junit.jupiter.api.Test;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -9,12 +9,12 @@ import org.springframework.boot.test.context.SpringBootTest;
 
 import java.util.List;
 
-@MapperScan("com.mbenfredj.vueblog.mapper")
+@MapperScan("com.mbenfredj.vueblog.dao")
 @SpringBootTest
 class VueblogApplicationTests {
 
     @Autowired
-    UserMapper userMapper;
+    UserDao userMapper;
 
     @Test
     void contextLoads() {

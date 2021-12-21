@@ -1,9 +1,9 @@
-package com.mbenfredj.vueblog.mapper;
+package com.mbenfredj.vueblog.dao;
 
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import com.mbenfredj.vueblog.entity.User;
 
-public interface UserMapper extends BaseMapper<User> {
+public interface UserDao extends BaseMapper<User> {
     // All CRUD operations have been written
 }
